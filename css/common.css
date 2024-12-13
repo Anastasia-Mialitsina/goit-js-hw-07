@@ -98,6 +98,9 @@ h1 {
   height: 40px;
   padding: 8px 140px 8px 16px;
 }
+.input-txt:hover {
+  border-color: #000000;
+}
 /* task 4 */
 .login-form {
   width: 360px;
@@ -117,6 +120,9 @@ h1 {
   width: 360px;
   height: 40px;
 }
+.input-name:hover {
+  border-color: #000000;
+}
 .btn {
   border-radius: 8px;
   padding: 8px 16px;
@@ -131,6 +137,10 @@ h1 {
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #fff;
+}
+.btn:hover {
+  background-color: #6C8CFF;
+  cursor: pointer;
 }
 /* task 5 */
 .widget {
@@ -163,6 +173,10 @@ h1 {
   letter-spacing: 0.04em;
   color: #fff;
 }
+.change-color:hover {
+  background-color: #6C8CFF;
+  cursor: pointer;
+}
 /* task 6 */
 .input-six {
   border: 1px solid #808080;
@@ -171,6 +185,9 @@ h1 {
   width: 150px;
   height: 40px;
   margin-right: 16px;
+}
+.input-six:hover {
+  border-color: #000000;
 }
 .btn-six {
   border-radius: 8px;
@@ -187,6 +204,10 @@ h1 {
   color: #fff;
   margin-right: 16px;
 }
+.btn-six:hover {
+  background-color: #6C8CFF;
+  cursor: pointer;
+}
 .btn-six-two {
   border-radius: 8px;
   padding: 8px 16px;
@@ -200,4 +221,8 @@ h1 {
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #fff;
+}
+.btn-six-two:hover {
+  background-color: #FF7070;
+  cursor: pointer;
 }

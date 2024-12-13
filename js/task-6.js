@@ -12,6 +12,7 @@ const boxesContainer = document.querySelector("#boxes");
 
 function createBoxes(amount) {
   const boxes = [];
+  let size = 30;
 
   for (let i = 0; i < amount; i++) {
     const box = document.createElement("div");
